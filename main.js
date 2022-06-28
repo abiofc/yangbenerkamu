@@ -152,8 +152,8 @@ displayText: 'ＢＹＥ ＢＥＢＡＮ',
 id: 'bye'
 }
 }]                  
-Welcome = await getBuffer(`https://api.lolhuman.xyz/api/base/welcome?apikey=${lolkey}&img1=${ppuser}&img2=${ppgroup}&background=https://telegra.ph/file/38dfc6649ab96b7dc7d41.jpg&username=${nama}&member=${encodeURIComponent(memb)}&groupname=${encodeURIComponent(metadata.subject)}`)
-Left = await getBuffer(`https://api.lolhuman.xyz/api/base/leave?apikey=${lolkey}&img1=${ppuser}&img2=${ppgroup}&background=https://telegra.ph/file/38dfc6649ab96b7dc7d41.jpg&username=${nama}&member=${encodeURIComponent(memb)}&groupname=${encodeURIComponent(metadata.subject)}`)
+Welcome = await getBuffer(`https://api.lolhuman.xyz/api/base/welcome?apikey=${lolkey}&img1=${ppuser}&img2=${ppgroup}&background=https://telegra.ph/file/ca090424dc8d88087dc92.jpg&username=${nama}&member=${encodeURIComponent(memb)}&groupname=${encodeURIComponent(metadata.subject)}`)
+Left = await getBuffer(`https://api.lolhuman.xyz/api/base/leave?apikey=${lolkey}&img1=${ppuser}&img2=${ppgroup}&background=https://telegra.ph/file/fe180a6ee952d3991fd78.jpg&username=${nama}&member=${encodeURIComponent(memb)}&groupname=${encodeURIComponent(metadata.subject)}`)
                 if (anu.action == 'add') {
                     kirbotz.send5ButImg(anu.id, cangton, `Name Grup ${metadata.subject} `, Welcome, btn)
                 } else if (anu.action == 'remove') {
