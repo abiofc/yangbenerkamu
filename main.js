@@ -119,13 +119,13 @@ memb = metadata.participants.length
 let btn = [{
 urlButton: {
 displayText: '🧸ＹＯＵＴＵＢＥ',
-url: 'https://youtube.com/channel/UCsQHOaoM4b1ta7bZVLvc_Pg'
+url: 'https://youtube.com/channel/UCqCZmaSvnbsre9EKEyGtviQ'
 }
 }, 
 {
 urlButton: {
 displayText: '☠️ＯＷＮＥＲ',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {
@@ -137,13 +137,13 @@ id: 'welcome'
 let bton = [{
 urlButton: {
 displayText: '🧸ＹＯＵＴＵＢＥ',
-url: 'https://youtube.com/channel/UCsQHOaoM4b1ta7bZVLvc_Pg'
+url: 'https://youtube.com/channel/UCqCZmaSvnbsre9EKEyGtviQ'
 }
 }, 
 {
 urlButton: {
 displayText: '☠️ＯＷＮＥＲ',
-url: 'https://wa.me/62882016646288'
+url: 'https://wa.me/6282134110253'
 }
 },
 {
