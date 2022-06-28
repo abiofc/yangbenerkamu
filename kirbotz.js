@@ -402,7 +402,7 @@ const fbugtroli = {
         "extendedTextMessage": {
         "text": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
         "title": `Hmm`,
-        'jpegThumbnail': log0
+        'jpegThumbnail': thumb
         }
         }
         }
@@ -429,7 +429,7 @@ key: {
         message: { 
 documentMessage: {
 title: `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
-jpegThumbnail: log0
+jpegThumbnail: thumb
 }
 }
 }
@@ -459,7 +459,7 @@ key: {
 "inviteCode": "mememteeeekkeke",
 "groupName": "P", 
 "caption": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
-'jpegThumbnail': log0
+'jpegThumbnail': thumb
 }
 }
 }
@@ -476,7 +476,7 @@ key: {
  'seconds': "30", 
  'gifPlayback': 'true', 
  'caption': 'kontol',
- 'jpegThumbnail': log0
+ 'jpegThumbnail': thumb
 }
 }
 } 
@@ -492,7 +492,7 @@ key: {
 "h": `Hmm`,
 'seconds': '30', 
 'caption': `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
-'jpegThumbnail': log0
+'jpegThumbnail': thumb
 }
 }
 }
@@ -505,7 +505,7 @@ key: {
         message: { 
 locationMessage: {
 name: `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`,
-jpegThumbnail: log0
+jpegThumbnail: thumb
 }
 }
 }
@@ -520,7 +520,7 @@ key: {
 "product": {
 "productImage":{
 "mimetype": "image/jpeg",
-"jpegThumbnail": log0 //Gambarnye
+"jpegThumbnail": thumb //Gambarnye
 },
 "title": `⫹⫺ sʜɪɴᴄʜᴀɴ-ɪɴꜰɪɴɪᴛʏ-ᴄʀᴀꜱʜ-ᴡᴀ${ngazap}\n${virshin()}`, //Kasih namalu 
 "description": "SELF BOT", 
