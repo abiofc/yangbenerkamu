@@ -977,7 +977,7 @@ async function replyPremium(teks) {
 async function sendBut5nya(teks) {
 var button = [
 {"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/6282134110253`}},
-{"quickReplyButton": {"displayText": "ORDER BUG","id": 'sewabot'}},
+{"quickReplyButton": {"displayText": "JASA SPAM BUG","id": 'sewabot'}},
 {"quickReplyButton": {"displayText": "Donasi","id": 'donasi'}},
 {"quickReplyButton": {"displayText": "Status Botz","id": 'ping'}}
 		]
