@@ -248,6 +248,9 @@ try {
 } catch (err) {
 console.error(err)
 }
+if (command) {
+await kirbotz.sendPresenceUpdate('recording', m.chat)
+}
 
             if (!kirbotz.self) {
             if (!m.key.fromMe) return
