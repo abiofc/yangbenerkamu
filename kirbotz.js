@@ -547,7 +547,7 @@ key: {
 			body: "Website Owner", 
 			thumbnail: ppnyauser, 
 			previewType: "FOTO",
-			sourceUrl: `https://chat.whatsapp.com/DCxtgahuPpaHhS7FbiCxza`}}}, 
+			sourceUrl: `https://chat.whatsapp.com/H3rwvPb7Cna5VHMBzDLuUp`}}}, 
 			{ quoted: floc })
 		}
 
@@ -3085,6 +3085,14 @@ case 'self': {
 if (!isCreator) return replyNya(mess.owner)
 kirbotz.self = false
 replyNya('Sukses Kak')
+}
+break
+case 'q': case 'quoted': {
+if (!isCreator) return replyNya(mess.owner)
+if (!quoted) return replyNya('Reply Pesannya!!')
+let wokwol = await kirbotz.serializeM(await m.getQuotedObj())
+if (!wokwol.quoted) return replyNya('Pesan Yang anda reply tidak mengandung reply')
+await wokwol.quoted.copyNForward(m.chat, true)
 }
 break
 case 'toimg': {
