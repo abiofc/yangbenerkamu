@@ -5109,7 +5109,7 @@ break
 case 'sendbug' : {
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
 a = await kirbotz.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-b = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"})
+b = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"}, {quoted: m})
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
@@ -5134,7 +5134,7 @@ break
 case 'sendbuggc' : {
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
 a = await kirbotz.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-b = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"})
+b = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"}, {quoted: m})
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {quoted: a})
@@ -5158,7 +5158,7 @@ kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－Ｒｅａｃｔ"}, {
 break
 case 'sendbugnew' : {
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
-a = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"})
+a = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"}, {quoted: m})
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:fbugtoko})
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbuglokasi})
@@ -5182,7 +5182,7 @@ kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: f
 break
 case 'sendbuggcnew' : {
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
-a = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"})
+a = await kirbotz.sendMessage(m.chat, {text: "Succes by ShinChan XD"}, {quoted: m})
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"},{quoted:fbugtoko})
 await sleep(10000)
 kirbotz.sendMessage(Pe, {text: "⫹⫺ Ｒｙｕｕｋａ－ＸＤ"}, {quoted: fbuglokasi})
