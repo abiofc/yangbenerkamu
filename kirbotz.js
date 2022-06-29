@@ -3090,6 +3090,7 @@ break
 case 'q': case 'quoted': {
 if (!isCreator) return replyNya(mess.owner)
 if (!quoted) return replyNya('Reply Pesannya!!')
+let msg = await m.getQuotedObj()
 let wokwol = await kirbotz.serializeM(await m.getQuotedObj())
 if (!wokwol.quoted) return replyNya('Pesan Yang anda reply tidak mengandung reply')
 await wokwol.quoted.copyNForward(m.chat, true)
