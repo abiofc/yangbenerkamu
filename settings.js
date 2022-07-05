@@ -1,8 +1,8 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.owner = ['6282134110253']
-global.premium = ['6282134110253']
+global.owner = ['6288232154376']
+global.premium = ['6288232154376']
 global.packname = ''
 global.author = '⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫'
 global.sessionName = 'WzFames'
@@ -11,13 +11,13 @@ global.namaownernya = 'Ｒｙｕｕｋａ 仫'
 global.dapkey = 'Kirbotz123'
 global.lolkey = 'Atakbotz'
 global.kirkey = 'KirBotz'
-global.wame = 'https://wa.me/6282134110253'
-global.gckirbotz = 'https://chat.whatsapp.com/D43FCN18CnhBD0ahOViHp3'
-global.ownerNumber = ["6282134110253@s.whatsapp.net"]
-global.email = 'shinchansenpai57@gmail.com'
-global.yt = 'https://youtube.com/channel/UCqCZmaSvnbsre9EKEyGtviQ'
-global.webkir = 'https://youtube.com/channel/UCqCZmaSvnbsre9EKEyGtviQ'
-global.githubkir = 'https://github.com/ShinChanYucan/'
+global.wame = 'https://wa.me/6288232154376'
+global.gckirbotz = 'https://chat.whatsapp.com/ERrRJ18SMI20NZbYvq7E3w'
+global.ownerNumber = ["6288232154376@s.whatsapp.net"]
+global.email = 'abiputrapratama34@gmail.com'
+global.yt = 'https://youtube.com/c/Diging'
+global.webkir = 'https://youtube.com/c/Diging'
+global.githubkir = 'https://github.com/alok/'
 global.region = 'Indonesia'
 global.prefa = ['','!','.','#','-','•']
 global.mess = {
@@ -38,8 +38,8 @@ global.mess = {
 
 
 global.limitawal = {
-    premium: "Infinity",
-    free: 30
+    premium: "9999999",
+    free: 25
 }
 
 
