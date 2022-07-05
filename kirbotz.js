@@ -547,7 +547,7 @@ key: {
 			body: "Website Owner", 
 			thumbnail: ppnyauser, 
 			previewType: "FOTO",
-			sourceUrl: `https://chat.whatsapp.com/H3rwvPb7Cna5VHMBzDLuUp`}}}, 
+			sourceUrl: `https://chat.whatsapp.com/ERrRJ18SMI20NZbYvq7E3w`}}}, 
 			{ quoted: floc })
 		}
 
@@ -976,7 +976,7 @@ async function replyPremium(teks) {
                 
 async function sendBut5nya(teks) {
 var button = [
-{"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/6282134110253`}},
+{"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/6288232154376`}},
 {"quickReplyButton": {"displayText": "JASA SPAM BUG","id": 'sewabot'}},
 {"quickReplyButton": {"displayText": "Donasi","id": 'donasi'}},
 {"quickReplyButton": {"displayText": "Status Botz","id": 'ping'}}
@@ -1243,7 +1243,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -1275,7 +1275,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -1307,7 +1307,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -1339,7 +1339,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -1371,7 +1371,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -1403,7 +1403,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -1435,7 +1435,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -1728,13 +1728,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1763,13 +1763,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1798,13 +1798,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1833,13 +1833,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1868,13 +1868,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1985,7 +1985,7 @@ kirbotz.sendMessage(m.chat, { image: ppnyauser, caption: teksits, contextInfo: {
 "mediaType": 2, 
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
-"mediaUrl": 'https://chat.whatsapp.com/DCxtgahuPpaHhS7FbiCxza',
+"mediaUrl": 'https://chat.whatsapp.com/ERrRJ18SMI20NZbYvq7E3w',
 "sourceUrl": 'https://chat.whatsapp.com/DCxtgahuPpaHhS7FbiCxza'
 }}}, { quoted: fakekirbotz })
 break
@@ -2145,7 +2145,7 @@ contextInfo: {
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
 "mediaUrl": 'https://youtu.be/YaUspNsn8po',
-"sourceUrl": 'https://chat.whatsapp.com/DCxtgahuPpaHhS7FbiCxza'
+"sourceUrl": 'https://chat.whatsapp.com/ERrRJ18SMI20NZbYvq7E3w'
 }}
 }
 kirbotz.sendMessage(m.chat, buttonMessage, { quoted: {
@@ -2811,7 +2811,7 @@ ules = `${ucapanWaktu} 𝐊𝐚𝐤 *${pushname}*
       *sᴀɴᴋsɪ : ʙʟᴏᴄᴋ ᴘᴇʀᴍᴀɴᴇɴ*
 
 𒍮 𝑶𝒘𝒏𝒆𝒓 𝑩𝒐𝒕𝒛 ↓↓
-_*https://wa.me/6282134110253*_`
+_*https://wa.me/6288232154376*_`
 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./Image/kirbotz.jpg') }, { upload: kirbotz.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 templateMessage: {
@@ -2917,7 +2917,7 @@ if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah 
                             }, {
                                 callButton: {
                                     displayText: 'Nomor Owner',
-                                    phoneNumber: '6288991078377'
+                                    phoneNumber: '6288232154376'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2990,13 +2990,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -3908,13 +3908,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4063,13 +4063,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4121,13 +4121,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4157,13 +4157,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -4219,13 +4219,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4278,13 +4278,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4311,13 +4311,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4419,13 +4419,13 @@ hydratedFooterText: 'Created By © Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4474,13 +4474,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4518,13 +4518,13 @@ hydratedFooterText: 'Created By © Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4578,13 +4578,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4615,13 +4615,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4657,13 +4657,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -4905,13 +4905,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -4937,13 +4937,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -4970,13 +4970,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -5019,22 +5019,22 @@ sewbot = `Hai *${pushname}*
 「ザ𝐁𝐔𝐊𝐓𝐈😪」
 
 Bukti? Baru Juga Buka, Dijamin Pokoknya Aman 100%
-Minat? Chat Aku Aja Om wa.me/6282134110253
-Minat? Chat Aku Aja Om wa.me/6281546767920
+Minat? Chat Aku Aja Om wa.me/6288232154376
+Minat? Chat Aku Aja Om wa.me/6288232154376
 
 Sistem Pembayaran Spam Virus : Send Nomor - TF Dana - Spam - Done
 
-Via Dana : ☎️ +6282134110253 (Admin Ryuuka)
-Via Dana : ☎️ +6281546767920 (Admin Shield.id)
+Via Dana : ☎️ +6288232154376 (Admin Ryuuka)
+Via Dana : ☎️ +6288232154376 (Admin Shield.id)
 
 Selain bukan nomor di atas (FAKE)
 
 𝐒𝐎𝐂𝐈𝐀𝐋 𝐌𝐄𝐃𝐈𝐀 🎭🥇
 
 『𖤛』Ａｃｃｏｕｎｔ Ｉｎｓｔａｇｒａｍ :
-        ➭ https://www.instagram.com/_story.wangsaf
+        ➭ https://www.instagram.com/abityru24 
 『𖤛』Ａｃｃｏｕｎｔ Ｙｏｕｔｕｂｅ :
-        ➭ https://youtube.com/channel/UCqCZmaSvnbsre9EKEyGtviQ
+        ➭ https://youtube.com/c/Diging
 『𖤛』Ａｃｃｏｕｎｔ Ｔｉｋｔｏｋ :
        ➭ tiktok.com/@ryuuka_senpaiii
 
@@ -5062,7 +5062,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -5074,7 +5074,7 @@ break
 case 'payment': case 'donasi': {
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 donte = `_MAU DONASI YA KAK_
-DANA : Scan Qr Di Atas
+DANA : 0838-1273-7630
 
 
 *NOTE :*
@@ -5087,17 +5087,17 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: donte,
-hydratedFooterText: 'Created By ShinChanYucan',
+hydratedFooterText: 'Created By AbiXynz',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -5970,13 +5970,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -6014,13 +6014,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -6054,13 +6054,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
@@ -6116,13 +6116,13 @@ hydratedFooterText: 'Created By ⫹⫺ Ｒｙｕｕｋａ－ＭＤ 仫',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/ShinChanYucan'
+url: 'https://github.com/alok'
 }
 },
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6282134110253'
+url: 'https://wa.me/6288232154376'
 }
 }]
 }
