@@ -385,7 +385,7 @@ const fbugtroli = {
         message: { 
             "orderMessage": {
 						"orderId": "3184312811796096",
-						"sellerJid": "6282134110253@s.whatsapp.net",
+						"sellerJid": "6288232154376@s.whatsapp.net",
 						"itemCount": 999999999999999,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
@@ -1952,7 +1952,7 @@ kirbotz.sendContact(m.chat, global.owner, m)
 }
 break
 case 'credits':
-const sokl = "6282134110253@s.whatsapp.net"
+const sokl = "6288232154376@s.whatsapp.net"
 const sokd = "6281259121031@s.whatsapp.net"
 const soka = "62881038149808@s.whatsapp.net"
 const sokdi = "6288292024190@s.whatsapp.net"
@@ -1985,8 +1985,8 @@ kirbotz.sendMessage(m.chat, { image: ppnyauser, caption: teksits, contextInfo: {
 "mediaType": 2, 
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
-"mediaUrl": 'https://chat.whatsapp.com/ERrRJ18SMI20NZbYvq7E3w',
-"sourceUrl": 'https://chat.whatsapp.com/DCxtgahuPpaHhS7FbiCxza'
+"mediaUrl": 'https://chat.whatsapp.com/Jzkjd5toZWa5VWOou0vN6Q',
+"sourceUrl": 'https://chat.whatsapp.com/Jzkjd5toZWa5VWOou0vN6Q'
 }}}, { quoted: fakekirbotz })
 break
 case 'quest':
@@ -2145,7 +2145,7 @@ contextInfo: {
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
 "mediaUrl": 'https://youtu.be/YaUspNsn8po',
-"sourceUrl": 'https://chat.whatsapp.com/ERrRJ18SMI20NZbYvq7E3w'
+"sourceUrl": 'https://chat.whatsapp.com/Jzkjd5toZWa5VWOou0vN6Q'
 }}
 }
 kirbotz.sendMessage(m.chat, buttonMessage, { quoted: {
@@ -2828,7 +2828,7 @@ url: `${wame}`
 {
 urlButton: {
 displayText: 'Youtube ShinChan (Ryuuka-MD)',
-url: `https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`
+url: `https://chat.whatsapp.com/Jzkjd5toZWa5VWOou0vN6Q`
 }
 }]
 }
