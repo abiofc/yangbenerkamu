@@ -1,6 +1,10 @@
 require('./settings')
-const { default: kirbotzConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require('@adiwajshing/baileys')
-const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
+const { default: kirbotzConnect, useSingleFileAuthState, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require('@adiwajshing/baileys')
+//const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
+const yargs = require('yargs/yargs')
+const opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+const aFolder = `${opts._[0] || 'sessions'}`
+const { state, saveCreds } = useMultiFileAuthState (aFolder)
 const pino = require('pino')
 const { Boom } = require('@hapi/boom')
 const fs = require('fs')
@@ -101,10 +105,10 @@ console.log(anu)
                     ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
                 }
 
-cangton = `Welcome ${num.split("@")[0]}, 😄
+cangton = `Welcome ${num.split("@")[0]}, 馃槃
 
 *_JANGAN LUPA INTRO_*
-️Nama :
+锔廚ama :
 Umur :
 Hobby :
 Gender :
@@ -113,42 +117,42 @@ Asal Kota :
 Descripsi Grup: ${metadata.desc}
 
 Semoga Betah Kak ><`
-cangtion = `${num.split("@")[0]}, Yah Beban Nya Keluar 😓` 
+cangtion = `${num.split("@")[0]}, Yah Beban Nya Keluar 馃槗` 
 let nama = await kirbotz.getName(num)
 memb = metadata.participants.length
 let btn = [{
 urlButton: {
-displayText: '🧸ＹＯＵＴＵＢＥ',
+displayText: '馃Ц锛癸集锛碉即锛碉饥锛?',
 url: 'https://youtube.com/c/Diging'
 }
 }, 
 {
 urlButton: {
-displayText: '☠️ＯＷＮＥＲ',
+displayText: '鈽狅笍锛挤锛讥锛?',
 url: 'https://wa.me/6288232154376'
 }
 },
 {
 quickReplyButton: {
-displayText: 'ＷＥＬＣＯＭＥ',
+displayText: '锛凤讥锛迹锛辑锛?',
 id: 'welcome'
 }
 }]
 let bton = [{
 urlButton: {
-displayText: '🧸ＹＯＵＴＵＢＥ',
+displayText: '馃Ц锛癸集锛碉即锛碉饥锛?',
 url: 'https://youtube.com/c/Diging'
 }
 }, 
 {
 urlButton: {
-displayText: '☠️ＯＷＮＥＲ',
+displayText: '鈽狅笍锛挤锛讥锛?',
 url: 'https://wa.me/6288232154376'
 }
 },
 {
 quickReplyButton: {
-displayText: 'ＢＹＥ ＢＥＢＡＮ',
+displayText: '锛脊锛? 锛讥锛肌锛?',
 id: 'bye'
 }
 }]                  
